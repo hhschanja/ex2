@@ -14,7 +14,7 @@
 <h1><a href="./notice/noticeList">NOTICE</a></h1>
 
 <h1>Branch입력</h1>
-<p>Test</p>
-<p>Test</p>
+<h1>Branch입력</h1>
+<h1>Branch입력</h1>
 </body>
 </html>
