@@ -10,9 +10,8 @@
 </h1>
 
 <P>  The time on the server is ${serverTime}. </P>
-asdasdsad
-asdsad
 
-asdasd
+<h1><a href="./notice/noticeList">NOTICE</a></h1>
+
 </body>
 </html>

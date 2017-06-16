@@ -14,14 +14,8 @@ import com.choa.util.RowMaker;
 @Service //NoticeService noticeService = new NoticeService();
 public class NoticeService {
 
-
+	@Inject
 	private NoticeDAO noticeDAO;
-	
-	public NoticeService(NoticeDAO noticeDAO) {
-		
-		this.noticeDAO = noticeDAO;
-	
-	}
 	
 	public List<NoticeDTO> noticeList(int curPage,String kind,String search) throws Exception{
 		

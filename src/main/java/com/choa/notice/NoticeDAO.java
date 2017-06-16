@@ -20,12 +20,6 @@ public class NoticeDAO {
 	@Inject //바로 주입
 	private DataSource dataSource;
 
-	/*
-	public void setDataSource(DataSource dataSource) { //받아온 jar를 root context에서 객체를 미리 만들어준 다음에 DAO에다가 넣어줘야지 세터방식으로
-		this.dataSource = dataSource;
-	}
-*/
-	
 	public List<NoticeDTO> noticeList(RowMaker rowMaker) throws Exception{
 		Connection con = dataSource.getConnection();
 		PreparedStatement pst = null;
