@@ -14,6 +14,7 @@
 <h1><a href="./notice/noticeList">NOTICE</a></h1>
 
 <h1>Branch입력</h1>
-<p>GIT HUB</p><p>GIT HUB</p><p>GIT HUB</p>
+<p>Test</p>
+<p>Test</p>
 </body>
 </html>
